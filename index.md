@@ -6,7 +6,7 @@ permalink: /index.html
 
 <img style="float:right; padding-left:10px" src="images/self.jpeg" width="280" height="280">
 
-I am studying Generative AI from technology to applications at ByteDance. 
+I am working on democratizing intelligence for every company at ByteDance. 
 
 Previously, I was a Senior Director at Momenta.ai leading a team of engineers and PMs to build data infra and simulation for autonomous driving. Whthin my 3 years tenure, we built the largest simulation platform in China in terms of scale from scratch and won "Platform of the Year" in 2022 and 2023. 
 
