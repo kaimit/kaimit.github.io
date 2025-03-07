@@ -14,7 +14,7 @@ Prior to Momenta.ai, I was spearheading the strategy of Volcengine at ByteDance.
 
 I obtained my PhD from MIT and my bachelors from Tsinghua University. 
 
-During my spare time, I like trail running and skiing. I am currently training for UTMB. 
+During my spare time, I like hiking, running and skiing.  
 
 <!--
 In my work, I study agents.
