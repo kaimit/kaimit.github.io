@@ -31,4 +31,4 @@ During my spare time, I like hiking, running and skiing.
 
 ### Contact
 
-Feel free to reach out to me at xiangk07@gmail.com or connect with me on [LinkedIn](https://linkedin.com/in/mitkaixiang) and [Twitter](https://twitter.com/xiang_kai_MIT).
+Feel free to reach out to me at xiangk07@gmail.com or connect with me on [LinkedIn](https://linkedin.com/in/mitkaixiang) and [Twitter](https://twitter.com/kaixmit).
