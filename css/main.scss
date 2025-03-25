@@ -1,0 +1,288 @@
+---
+---
+
+// Variables
+$primary-color: #0366d6;
+$text-color: #24292e;
+$light-gray: #f6f8fa;
+$gray: #586069;
+$border-color: #e1e4e8;
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+// Base styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-color;
+  background-color: #fff;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p, ul, ol {
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  padding-left: 2em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Header
+.site-header {
+  padding: 1rem 0;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 2rem;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    
+    a {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+  
+  .site-nav {
+    display: flex;
+    gap: 1rem;
+    
+    .nav-link {
+      color: $gray;
+      
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+// Footer
+.site-footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid $border-color;
+  color: $gray;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+// Hero section
+.hero {
+  background-color: $light-gray;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+  h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: $gray;
+  }
+}
+
+// Featured content
+.featured-content, .recent-posts {
+  margin-bottom: 3rem;
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .view-all {
+    margin-top: 1rem;
+    text-align: right;
+  }
+}
+
+// Paper styles
+.paper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.paper-card {
+  background-color: $light-gray;
+  padding: 1.5rem;
+  border-radius: 5px;
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  .authors {
+    font-style: italic;
+    color: $gray;
+  }
+  
+  .venue {
+    font-size: 0.9em;
+  }
+}
+
+.papers-list {
+  .paper-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $border-color;
+    
+    h3 {
+      margin-top: 0;
+    }
+  }
+  
+  .paper-tags {
+    margin-top: 0.5rem;
+    
+    .paper-tag {
+      display: inline-block;
+      background-color: $light-gray;
+      color: $gray;
+      font-size: 0.8em;
+      padding: 0.2em 0.6em;
+      margin-right: 0.5em;
+      border-radius: 3px;
+    }
+  }
+}
+
+// Post styles
+.post-list {
+  .post-item {
+    margin-bottom: 2rem;
+    
+    h3 {
+      margin-top: 0;
+    }
+    
+    .post-date {
+      color: $gray;
+      font-size: 0.9em;
+      margin-bottom: 0.5rem;
+    }
+    
+    .post-categories {
+      margin-bottom: 0.5rem;
+      
+      .post-category {
+        display: inline-block;
+        background-color: $light-gray;
+        color: $gray;
+        font-size: 0.8em;
+        padding: 0.2em 0.6em;
+        margin-right: 0.5em;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+.post {
+  .post-title {
+    margin-top: 0;
+  }
+  
+  .post-meta {
+    color: $gray;
+    margin-bottom: 1.5rem;
+  }
+  
+  .post-content {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+// Page
+.page {
+  .page-title {
+    margin-top: 0;
+  }
+}
+
+// Responsive
+@media (max-width: 600px) {
+  .site-header {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  }
+  
+  .site-footer {
+    .container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  
+  .paper-grid {
+    grid-template-columns: 1fr;
+  }
+}

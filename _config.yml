@@ -1,0 +1,13 @@
+title: Your Name
+description: Personal website showcasing papers, writings, and more
+url: https://yourusername.github.io
+baseurl: ""
+permalink: /:title/
+github_username: yourusername
+linkedin_username: yourlinkedinusername
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
