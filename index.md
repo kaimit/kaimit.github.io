@@ -4,8 +4,8 @@ layout: default
 
 <section class="hero">
   <div class="hero-content">
-    <h1>Hello, I'm [Your Name]</h1>
-    <p class="subtitle">[Your brief professional description - e.g., Researcher in AI and Machine Learning]</p>
+    <h1>Hello, I'm Kai Xiang</h1>
+    <p class="subtitle">Democratizing intelligence for every company at ByteDance</p>
   </div>
 </section>
 

@@ -35,6 +35,15 @@
         {% if site.linkedin_username %}
         <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
         {% endif %}
+        {% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+        {% endif %}
+        {% if site.googlescholar %}
+        <a href="https://scholar.google.com/citations?user={{ site.googlescholar }}" target="_blank">Google Scholar</a>
+        {% endif %}
+        {% if site.email %}
+        <a href="mailto:{{ site.email }}">Email</a>
+        {% endif %}
       </div>
     </div>
   </footer>

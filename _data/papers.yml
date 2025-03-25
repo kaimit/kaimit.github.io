@@ -1,26 +1,26 @@
-- title: "Example Paper Title: A Novel Approach to Something Interesting"
-  authors: "Your Name, Co-author One, Co-author Two"
-  venue: "Journal of Important Research"
-  year: 2024
-  url: "/papers/example-paper/"
-  pdf: "/papers/example-paper.pdf"
-  abstract: "This is an example abstract for a fictional paper. In a real implementation, this would contain a summary of your actual published work. The abstract typically describes the problem addressed, methods used, and key findings."
-  tags: [Machine Learning, Neural Networks, Research]
+- title: "Electrochemically-induced phase transition in olivine type cathode materials"
+  authors: "Kai Xiang"
+  venue: "PhD thesis"
+  year: 2018
+  url: "/papers/phd-thesis/"
+  pdf: "https://dspace.mit.edu/bitstream/handle/1721.1/115608/1036986492-MIT.pdf?sequence=1"
+  abstract: "This thesis explores electrochemically-induced phase transitions in olivine-type cathode materials for lithium-ion batteries."
+  tags: [Energy Storage, Batteries, Materials Science]
 
-- title: "Another Example Paper: Exploring Some Fascinating Topic"
-  authors: "Co-author One, Your Name, Co-author Three"
-  venue: "International Conference on Cool Stuff"
-  year: 2023
-  url: "/papers/another-example/"
-  pdf: "/papers/another-example.pdf"
-  abstract: "This is another example abstract for a fictional paper. In this imaginary work, we explored interesting aspects of a fascinating topic and discovered surprising results that advance the field."
-  tags: [Deep Learning, Computer Vision, Innovation]
+- title: "Mesoscopic phase transition kinetics in secondary particles of electrode-active materials in lithium-ion batteries"
+  authors: "Kai Xiang, Kaiqi Yang, W Craig Carter, Ming Tang, Yet-Ming Chiang"
+  venue: "Chemistry of Materials"
+  year: 2018
+  url: "/papers/mesoscopic-phase/"
+  pdf: "https://pubs.acs.org/doi/10.1021/acs.chemmater.7b05407"
+  abstract: "This paper explores the mesoscopic phase transition kinetics in secondary particles of electrode-active materials used in lithium-ion batteries."
+  tags: [Energy Storage, Batteries, Materials Science]
 
-- title: "A Third Example: Building Something Useful"
-  authors: "Your Name, Co-author Four"
-  venue: "Transactions on Important Applications"
-  year: 2022
-  url: "/papers/third-example/"
-  pdf: "/papers/third-example.pdf"
-  abstract: "In this fictional paper, we present a novel framework for building useful applications that solve real-world problems. Our approach combines theoretical insights with practical implementations."
-  tags: [Applications, Framework, Implementation]
+- title: "Accommodating High Transformation Strains in Battery Electrodes via the Formation of Nanoscale Intermediate Phases: Operando Investigation of Olivine NaFePO4"
+  authors: "Kai Xiang, Wenting Xing, Dorthe B Ravnsbæk, Liang Hong, Ming Tang, Zheng Li, Kamila M Wiaderek, Olaf J Borkiewicz, Karena W Chapman, Peter J Chupas, Yet-Ming Chiang"
+  venue: "Nano Letters"
+  year: 2017
+  url: "/papers/high-transformation-strains/"
+  pdf: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.6b04971"
+  abstract: "In this work, we investigate how battery electrodes accommodate high transformation strains through the formation of nanoscale intermediate phases, with a focus on olivine NaFePO4."
+  tags: [Energy Storage, Nanomaterials, Battery Materials]

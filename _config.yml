@@ -1,10 +1,13 @@
-title: Your Name
-description: Personal website showcasing papers, writings, and more
-url: https://yourusername.github.io
+title: Kai Xiang 向凯
+description: Feel AGI, embrace AGI and build AGI.
+url: https://kaimit.github.io
 baseurl: ""
 permalink: /:title/
-github_username: yourusername
-linkedin_username: yourlinkedinusername
+github_username: kaimit
+linkedin_username: mitkaixiang
+twitter_username: xiang_kai_MIT
+email: xiangk07@gmail.com
+googlescholar: vDtcytEAAAAJ
 
 # Build settings
 markdown: kramdown
