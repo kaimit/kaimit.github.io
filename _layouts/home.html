@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/home.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <main class="home-content">
+      <div class="profile-section">
+        <div class="profile-image">
+          <img src="{{ '/assets/images/self.jpeg' | relative_url }}" alt="{{ site.title }}">
+        </div>
+        <div class="social-links">
+          {% if site.email %}
+          <a href="mailto:{{ site.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          {% endif %}
+          {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          {% endif %}
+          {% if site.twitter_username %}
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          {% endif %}
+          {% if site.linkedin_username %}
+          <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          {% endif %}
+          {% if site.googlescholar %}
+          <a href="https://scholar.google.com/citations?user={{ site.googlescholar }}" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+          {% endif %}
+        </div>
+      </div>
+      
+      <div class="content-section">
+        <h1>{{ site.title }}</h1>
+        <p class="subtitle">{{ site.description }}</p>
+        
+        <div class="bio">
+          <p>I am working on democratizing intelligence for every company at ByteDance.</p>
+          
+          <p>Previously, I was a Senior Director at Momenta.ai leading a team of engineers and PMs to build data infra and simulation for autonomous driving. Within my 3 years tenure, we built the largest simulation platform in China in terms of scale from scratch and won "Platform of the Year" in 2022 and 2023.</p>
+          
+          <p>Prior to Momenta.ai, I was spearheading the strategy of Volcengine at ByteDance. Before that, I was working on investment in AI and Infrastructure. I have also founded/co-founded various startups and organizations, including GGU Consulting, MIT CEO, MIT Energy Hackathon.</p>
+          
+          <p>I obtained my PhD from MIT and my bachelors from Tsinghua University.</p>
+        </div>
+        
+        <div class="section">
+          <h2>Publications</h2>
+          <div class="papers-list">
+            {% for paper in site.data.papers %}
+            <div class="paper-item">
+              <p class="paper-title"><a href="{{ paper.pdf }}" target="_blank">{{ paper.title }}</a></p>
+              <p class="paper-authors">{{ paper.authors }}</p>
+              <p class="paper-venue">{{ paper.venue }}, {{ paper.year }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        
+        <div class="section">
+          <h2>Writings</h2>
+          <div class="post-list">
+            {% for post in site.posts %}
+            <div class="post-item">
+              <p class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+              <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
